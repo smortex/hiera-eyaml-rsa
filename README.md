@@ -1,6 +1,6 @@
 # hiera-eyaml-rsa
 
-RSA encryption backend for the [hiera-eyaml](https://github.com/voxpupuli/hiera-eyaml) module.
+Simple RSA encryption backend for use with [hiera-eyaml](https://github.com/voxpupuli/hiera-eyaml).
 
 ## Motivation
 

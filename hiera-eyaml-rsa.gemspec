@@ -8,13 +8,13 @@ Gem::Specification.new do |spec|
   spec.authors = ["Romain Tartière"]
   spec.email = ["romain@blogreen.org"]
 
-  spec.summary = "RSA encryptor for use with hiera-eyaml"
+  spec.summary = "Simple RSA encryptor for use with hiera-eyaml"
   spec.description = "Encryption plugin for hiera-eyaml backend for Hiera using simple RSA keys"
   spec.homepage = "https://github.com/smortex/hiera-eyaml-rsa"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 2.6.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org/"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = spec.homepage
