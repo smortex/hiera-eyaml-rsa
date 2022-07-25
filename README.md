@@ -22,12 +22,6 @@ Create an RSA key:
 
     $ eyaml createkeys -n rsa
 
-Alternatively, if you have PKCS#7 material and want to switch to plain RSA without rekeying:
-
-    $ rm keys/public_key.pkcs7.pem
-    $ openssl rsa -pubout -in keys/private_key.pkcs7.pem  -out keys/public_key.rsa.pem
-    $ mv keys/private_key.pkcs7.pem keys/private_key.rsa.pem
-
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
