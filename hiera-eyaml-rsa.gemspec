@@ -31,7 +31,7 @@ Gem::Specification.new do |spec|
   spec.executables = spec.files.grep(%r{\Aexe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "hiera-eyaml", "~> 3.0"
+  spec.add_dependency "hiera-eyaml", ">= 3.0", "< 5.0"
 
   spec.add_development_dependency "aruba"
   spec.add_development_dependency "cucumber"
