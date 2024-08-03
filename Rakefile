@@ -26,7 +26,7 @@ GitHubChangelogGenerator::RakeTask.new :changelog do |config|
   HEADER
   config.exclude_labels = %w[duplicate question invalid wontfix wont-fix skip-changelog ignore]
   config.user = "smortex"
-  config.project = "hiera-eyaml-plaintext"
+  config.project = "hiera-eyaml-rsa"
   config.since_tag = "v1.0.0"
   config.issues = false
 end
