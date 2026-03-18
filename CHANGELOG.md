@@ -5,6 +5,14 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.2.0](https://github.com/smortex/hiera-eyaml-rsa/tree/v1.2.0) (2026-03-18)
+
+[Full Changelog](https://github.com/smortex/hiera-eyaml-rsa/compare/v1.1.0...v1.2.0)
+
+**Implemented enhancements:**
+
+- Allow hiera-eyaml 5.x [\#3](https://github.com/smortex/hiera-eyaml-rsa/pull/3) ([smortex](https://github.com/smortex))
+
 ## [v1.1.0](https://github.com/smortex/hiera-eyaml-rsa/tree/v1.1.0) (2024-08-03)
 
 [Full Changelog](https://github.com/smortex/hiera-eyaml-rsa/compare/v1.0.0...v1.1.0)

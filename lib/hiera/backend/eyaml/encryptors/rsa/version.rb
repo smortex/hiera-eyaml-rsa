@@ -5,7 +5,7 @@ class Hiera
     module Eyaml
       module Encryptors
         module RsaVersion
-          VERSION = "1.1.0"
+          VERSION = "1.2.0"
         end
       end
     end
